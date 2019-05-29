@@ -1,8 +1,19 @@
+
+
+
+
 const getType = require('../getType')
 
 test('getType returns correct data type for number', function () {
+  
+  
+
+
+
   // Arrange
   const expected = 'number'
+
+  
 
   // Act
   const actual = getType(123)
