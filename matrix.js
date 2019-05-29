@@ -11,7 +11,10 @@ function getMatrix(n) {
     count--;
     myArray.push(0);
   }
-  console.log(myArray);
+  while (matrix.length < n){
+    matrix.push(myArray)
+  }
+  return matrix
 }
 
 function updateMatrix(matrix, coords, value) {}
