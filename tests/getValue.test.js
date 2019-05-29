@@ -9,7 +9,7 @@ test('getValue gets a nested object by key', function () {
   const expected = { address: '742 Evergreen Terrace', name: 'Marge Simpson', age: 47 }
 
   // Act
-  const actual = getValue(contacts, '123')
+  const actual = getValue(contacts, '124')
 
   // Assert
   expect(actual).toEqual(expected)
