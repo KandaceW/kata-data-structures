@@ -1,2 +1,5 @@
-function getValue (obj, key) {
+module.exports = getValue;
+
+function getValue(obj, key) {
+  return obj[key];
 }
