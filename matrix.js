@@ -11,11 +11,13 @@ function getMatrix(n) {
     count--;
     myArray.push(0);
   }
-  while (matrix.length < n){
-    matrix.push(myArray)
+  while (matrix.length < n) {
+    matrix.push(myArray);
   }
-  return matrix
+  return matrix;
 }
 
-function updateMatrix(matrix, coords, value) {}
-//at index of
+function updateMatrix(matrix, coords, value) {
+  matrix[coords[0]][coords[1]] = value;
+  return matrix;
+}
