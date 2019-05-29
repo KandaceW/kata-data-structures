@@ -1,7 +1,5 @@
 function getAddress(obj) {
-  //console.log(obj)
-  const values = Object.values(obj);
-  return values[1];
+  return obj.address;
 }
 
 module.exports = getAddress;
