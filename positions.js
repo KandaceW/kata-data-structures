@@ -1,5 +1,12 @@
-function getFirst (arr) {
+module.exports = {
+  getFirst: getFirst,
+  getLast: getLast
 }
 
-function getLast (arr) {
+function getFirst(arr) {
+  return arr[0]
+}
+
+function getLast(arr) {
+  return arr.slice(-1)[0]
 }
